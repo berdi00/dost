@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+}
+
+.sub-header{
+    height: 30vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),url(images/img.jpg);
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.sub-header h1{
+    color:#fff;
+    padding-top: 4rem;
+    font-size: 4rem;
+}
+
+#register{
+    min-height: 30vh;
+    width: 100vw;
+    margin: 2rem auto;
+}
+  
+form {
+    background: #cedceb;
+    padding-top: 2rem;
+    margin: auto 1rem;
+    border-radius: 1rem;
+}
+  
+.inputBox {
+    position: relative;
+    text-align: center;
+}
+
+.inputBox input{
+    outline: none;
+    border: .2rem solid #333;
+    border-radius: .2rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    background: none;
+    height: 3rem; 
+    width:70%;
+}
+  
+#register form .inputBox input:valid ~ h3, #register form .inputBox:focus ~ h3,
+#register form .inputBox input:focus ~ h3,
+#register form .inputBox:valid ~ h3 {
+    font-size: 1.3rem;
+    left: 17%;
+    top: -.7rem;
+    color: #ff3300;
+}
+  
+.inputBox h3{
+    position: absolute;
+    top: 1.5rem; left: 17%;
+    font-size: 1.3rem;
+}
+
+/* Button function */
+input[type="submit"] {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 2.5rem;
+    width: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 4%;
+    background: #333;
+    color: #fff;
+}
+  
+input[type="submit"]:hover {
+    color: #333;
+    background: #FFF200;
+}
+
+#footer{
+    background: #333;
+}
+
+  
+.brand{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+
+#footer h3{
+    font-size: 1rem;
+    color: #FFF200;
+}
+
+.brand .icons a{
+    font-size: 1.5rem;
+    margin: 1rem 1rem;
+    color: #fff;
+}
+  
+  .brand .icons a:hover{
+    color:#FFF200;
+}
+
+.footer-links{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    margin: 1rem 0;
+}
+.footer-links p{
+    color: #fff;
+}
+
+
+/* all_users section starts */
+
+#students{
+    min-height: 30vh;
+    width: 100vw;
+    margin: 2rem auto;
+}
+
+table {
+    background-color: aliceblue;
+}
+
+table tr{
+    text-align: center;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color:#333;
+    border: 2px solid #333;
+    padding: 0.8rem/*< top and bottom*/ 2rem;
+    font-size: 1rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer; 
+}
+.hero-btn:hover{
+    border: 2px solid #FFF200;
+    background: #FFF200;
+    transition: 1s;
+}
+/* all_users section ends */
+
+
+  
