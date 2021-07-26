@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0; padding: 0;
     font-family: 'Exo 2', sans-serif;
-    text-transform: capitalize;
 }
 
 .sub-header{
@@ -129,7 +128,7 @@ input[type="submit"]:hover {
 
 /* all_users section starts */
 
-#students{
+#common{
     min-height: 30vh;
     width: 100vw;
     margin: 2rem auto;
@@ -137,10 +136,30 @@ input[type="submit"]:hover {
 
 table {
     background-color: aliceblue;
+    text-transform: capitalize;
 }
 
 table tr{
     text-align: center;
+}
+
+.dova {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    border-radius: 5rem;
+    background: white;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+
+.dova:hover {
+    background: #FFF200;
+    transition: 0.5s;
 }
 
 .hero-btn {
@@ -157,9 +176,69 @@ table tr{
 .hero-btn:hover{
     border: 2px solid #FFF200;
     background: #FFF200;
-    transition: 1s;
+    transition: 0.5s;
 }
 /* all_users section ends */
 
+/* warning section starts */
+
+.column {
+    background-color: aliceblue;
+}
+.column div {
+    margin: 1.5rem 1rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.note {
+    margin-left: 2rem;
+}
+
+.note div {
+    font-size: 1.4rem;
+}
+/* warning section ends */
+
+/* test section starts */
+
+#common p {
+    font-size: 1.5rem;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #0076ff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3), 0 7px 21px 0 rgba(0,0,0,0.20);
+}
+input[type="radio"]:checked + label {
+    background: #173459;
+    color: white;
+}
+/* test section ends */
+
+/* somebody section starts */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label {
+    background: #173459;
+    color: white;
+}
+
+input[type="checkbox"]:checked + #hezret {
+    background: red;
+    color: white;
+}
 
   
